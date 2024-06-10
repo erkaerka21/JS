@@ -73,9 +73,16 @@ console.log("15 гигабайт дах битийн тоо хэмжээ:", 15 *
 
 //daalgavar 8
 let CDegree = 35;
-FDegree = CDegree + 32;
-console.log(FDegree);
+console.log("Цельсийн хэм", CDegree);
 
+FDegree = (CDegree * 9) / 5 + 32;
+console.log("Цельсийн хэмийг Франгейтийн хэмжүүр рүү шилжүүлсэн : ", FDegree);
+
+//daalgavar 9
 let FDegree = 69;
 CDegree = FDegree - 32;
 console.log(CDegree);
+
+//daalgavar 10
+
+//daalgavar 11
