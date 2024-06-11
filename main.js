@@ -74,15 +74,34 @@ console.log("15 гигабайт дах битийн тоо хэмжээ:", 15 *
 //daalgavar 8
 let CDegree = 35;
 console.log("Цельсийн хэм", CDegree);
-
 FDegree = (CDegree * 9) / 5 + 32;
 console.log("Цельсийн хэмийг Франгейтийн хэмжүүр рүү шилжүүлсэн : ", FDegree);
 
 //daalgavar 9
-let FDegree = 69;
-CDegree = FDegree - 32;
-console.log(CDegree);
+let FranDegree = 69;
+console.log("Франгейтийн хэм", FranDegree);
+CesDegree = ((FranDegree - 32) * 5) / 9;
+console.log("Франгейтийн хэмийг Цельсийн хэмжүүр рүү шилжүүлсэн : ", CesDegree);
 
 //daalgavar 10
+let X = 36;
+console.log("хувьсагч X", X);
+let Y = 18;
+console.log("хувьсагч Y", Y);
+
+xyniilber = X + Y;
+xyyalgavar = X - Y;
+xyurjver = X * Y;
+xynoogdvor = X / Y;
+xynoogdvorUldegdel = X % Y;
+
+console.log("x, y нийлбэр", xyniilber);
+console.log("x, y ялгавар", xyyalgavar);
+console.log("x, y үржвэр", xyurjver);
+console.log("x, y ноогдвор", xynoogdvor);
+console.log("x, y ноогдворын үлдэгдэл", xynoogdvorUldegdel);
 
 //daalgavar 11
+let cm = "0.3937 инч";
+console.log("1 см нь : ", cm);
+инч = cm / 0.3937;
